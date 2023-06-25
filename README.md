@@ -1,4 +1,4 @@
-# simple-react-app
+# simple-string-comparator-app
 
 This is a very simple app to demonstrate an app with [React](https://react.dev/) frontend and [Java + SpringBoot](https://spring.io/projects/spring-boot) backend.
 
@@ -30,3 +30,8 @@ Frontend application takes two text input and compares these inputs by calling c
 
 
 <img width="1020" alt="NotSame" src="https://github.com/seckinozden/simple-string-comparator-app/assets/4036699/84d2a980-ec0a-4d2c-a7db-0057d1c5dd2d">
+
+# How to run the application
+
+- For running backend, Make sure you hava Java 17 is installed and set as JDK. Then navigate to `comparator-backend` folder and run `./gradlew bootRun` command.
+- For running frontend, navigate to `comparator-frontend` folder and run `npm start`. And open the `localhost:3000` on your browser.
